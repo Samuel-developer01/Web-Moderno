@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link href="estilos/estilo.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios_HTML.</title>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script>
+	$(function(){
+		$("#hed").hover(
+			function(){
+				//Ao posicionar o cursor sobre a div
+				$(this).css('background', 'red');
+			},
+			function(){
+				//Ao remover o cursor da div
+				$(this).css('background', 'white' );
+			}
+		);
+	});
+	</script>
+    <style>
+       h1 {
+        color: rgb(0, 47, 255);
+        text-align:center;
+        font-size: 5;
+    font-weight:bolder
+       }
+
+    </style>
+    <br> 
+ 
+</head>
+<body>
+    <!--Header--> 
+    <div>
+    <header>
+        <h1 id="hed">Exercicios HTML</h1>
+        <nav>
+            <a href ="Exercicios/texto01.html">Tags - 01</a>
+            <a href ="Exercicios/texto02.html">Tags - 02</a>
+            <a href ="Exercicios/listas.html" target="_blank">Listas - 03</a>
+            <a href ="Exercicios/listaAninhadas.html"target="_blank">Lista Aninhadas - 04</a>
+            <a href ="Exercicios/links.html" >Links - 05</a>
+            <a href ="Exercicios/tabelas.html" >Tabelas - 06</a>
+            <a href ="Exercicios/form/form.html" >Formulário - 06</a>
+            <a href ="Exercicios/imagens.html" >Imagens - 07</a>
+            <a href ="Exercicios/Vídeo.html" >Vídeo - 08</a>
+            <a href ="Exercicios/tagsNaoVisuais.html" >Tags Não Visuais - 09</a>
+        </nav>
+
+                            
+            <hr />
+    </div>
+
+      <a href wm="HTML5/texto01.html">Categorias</a> <BR>
+       <a href wm="HTML5/texto02.html">Sobre o curso</a> <br>
+
+    </header>
+   
+       <hr />
+  
+   <section id="conteudo"></section>
+   <!--Footer-->
+   <footer>
+    
+    &copy; Copyright <strong><span>Samuel Leite - Curso de Web Moderno</span></strong>
+       
+      
+   </footer>
+  
+
+
+
+    
+</body>
+</html>
